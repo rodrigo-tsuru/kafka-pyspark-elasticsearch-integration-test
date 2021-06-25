@@ -1,8 +1,8 @@
 # Kafka and Zookeeper
-FROM spotify/kafka
+FROM wurstmeister/kafka
 
-RUN apt-get update && \
-    apt-get install -y net-tools
+#RUN apt-get update && \
+#    apt-get install -y net-tools
 
 #ADD scripts/start-kafka.sh /usr/bin/start-kafka.sh
 ADD scripts/create-topic.sh /usr/bin/create-topic.sh

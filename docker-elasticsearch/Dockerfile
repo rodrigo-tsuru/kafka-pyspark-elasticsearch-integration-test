@@ -1,4 +1,4 @@
-FROM elasticsearch
+FROM elasticsearch:5.6
 
 RUN apt-get update && \
     apt-get install -y supervisor net-tools python

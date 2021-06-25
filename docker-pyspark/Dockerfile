@@ -1,4 +1,4 @@
-FROM java:openjdk-8-jre
+FROM openjdk:8
 
 #general dependencies
 RUN apt-get update && \
